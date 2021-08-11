@@ -24,6 +24,7 @@
     <ProjectGuid>{c85455b1-c9d7-4430-a92a-868a038b80da}</ProjectGuid>
     <RootNamespace>LSystems</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>FractalTreeGen</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -133,14 +134,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Gabe\Documents\LSystems\LSystems\Dependencies\glew-2.1.0-win32\glew-2.1.0\include;C:\Users\Gabe\Documents\LSystems\LSystems\Dependencies\glm-0.9.9.8;C:\Users\Gabe\Documents\LSystems\LSystems\Dependencies\SDL2-devel-2.0.14-VC\SDL2-2.0.14\include;C:\Users\Gabe\Documents\LSystems\LSystems\LSystems\ImGui\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gabe\Documents\LSystems\FractalTreeGen\Dependencies\glew-2.1.0-win32\glew-2.1.0\include;C:\Users\Gabe\Documents\LSystems\FractalTreeGen\Dependencies\glm-0.9.9.8;C:\Users\Gabe\Documents\LSystems\FractalTreeGen\Dependencies\SDL2-devel-2.0.14-VC\SDL2-2.0.14\include;C:\Users\Gabe\Documents\LSystems\FractalTreeGen\FractalTreeGen\ImGui\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Gabe\Documents\LSystems\LSystems\Dependencies\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64;C:\Users\Gabe\Documents\LSystems\LSystems\Dependencies\SDL2-devel-2.0.14-VC\SDL2-2.0.14\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\Gabe\Documents\LSystems\FractalTreeGen\Dependencies\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64;C:\Users\Gabe\Documents\LSystems\FractalTreeGen\Dependencies\SDL2-devel-2.0.14-VC\SDL2-2.0.14\lib\x64</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;glew32.lib;glu32.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
